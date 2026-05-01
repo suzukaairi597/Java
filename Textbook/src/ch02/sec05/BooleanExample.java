@@ -11,18 +11,9 @@ public class BooleanExample {
 		}
 		
 		int x = 10;
-		boolean result1 = ()
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		boolean result1 = (x == 20);
+		boolean result2 = (x != 20);
+		System.out.println("result1: " + result1);
+		System.out.println("result2: " + result2);		
 	}
 }
