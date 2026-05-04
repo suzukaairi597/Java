@@ -1,6 +1,6 @@
 package sub1;
 
-public class account {
+public class Account {
 	//속성(필드)
 	String bank;
 	String id;
