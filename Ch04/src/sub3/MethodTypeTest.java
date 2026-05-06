@@ -17,37 +17,6 @@ public class MethodTypeTest {
 		System.out.println("y2 : " + y2);
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 	private static double type1(double d) {

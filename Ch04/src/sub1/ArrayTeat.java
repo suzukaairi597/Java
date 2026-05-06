@@ -31,13 +31,12 @@ public class ArrayTeat {
 		System.out.println("arr3 길이 : " + arr3.length);
 		
 		// 배열 반복문
-		for(int i = 0; i < arr1.length; i++) {
+		for(int i = 0; i < arr1.length ; i++) {
 			System.out.println("arr1[" + i + "] : " + arr1[i]);
 		}
 		
 		for(char c : arr2) { // for-each : 배열 전용 반복문 
 			System.out.println("arr2 원소 : " + c);
-			
 		}
 		
 		for(String city : arr3) { // for-each : 배열 전용 반복문
@@ -56,10 +55,9 @@ public class ArrayTeat {
 		
 		System.out.println("scores 배열합 : " + sum);
 		
-		// 2차원 배열
-		
-		int[][] arr2d = {{1, 2, 3, 4},
-						 {5, 6, 7, 8},
+		// 2차원 배열		
+		int[][] arr2d = {{1, 2, 3, 4}, 
+						 {5, 6, 7, 8}, 
 						 {9, 10, 11, 12}};
 		
 		System.out.println("arr2d[0][0] : " + arr2d[0][0]);
