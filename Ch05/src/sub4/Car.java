@@ -1,6 +1,7 @@
-package sub2;
+package sub4;
 
 public class Car {
+	
 	//속성(멤버 변수)
 	private String brand;
 	private String color;
@@ -12,7 +13,6 @@ public class Car {
 		this.color = color;
 		this.speed = speed;		
 	}
-	
 	
 	//기능(멤버 베서드)
 	public void speedUp(int speed) {

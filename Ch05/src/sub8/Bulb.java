@@ -1,8 +1,8 @@
 package sub8;
 
-public abstract class Bulb {
+public class Bulb {
 
-	public abstract void lightOn(); {
+	public void lightOn() {
 	
 		System.out.println("전구 불 켜짐...");
 		

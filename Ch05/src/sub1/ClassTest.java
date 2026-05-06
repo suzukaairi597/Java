@@ -24,6 +24,7 @@ public class ClassTest {
 		
 		// 생성/초기화/활용	
 		Car avante = new Car();
+		
 		avante.brand = "아반테";
 		avante.color = "검정";
 		avante.speed = 0;

@@ -24,7 +24,6 @@ public class StaticTest {
 				
 		// 클래스 변수는 객체 생성 없이 직접 접근 가능
 		// Increment.num1 = 1; // num1은 인스턴스 속성이기 때문에 객체로 접근해야 함
-		
          inc1.num1 = 1;
 		 inc2.num1 = 2;
 		 inc3.num1 = 3;
@@ -51,6 +50,5 @@ public class StaticTest {
 		 System.out.println("덧셈 : " + c1.plus(2, 3));
 		 System.out.println("뺄셈 : " + c2.minus(2, 3));
 		 System.out.println("곱셈 : " + c2.multi(5, 7));
-		 
 	}
 }
