@@ -53,7 +53,7 @@ public class OverridingTest {
 		
 		CCC c = new CCC();
 		
-		c.method1();
+		c.method1(); 
 		c.method2();
 		c.method3();
 		c.method3(1);
