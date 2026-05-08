@@ -17,23 +17,26 @@ public class Test04 {
 		
 		System.out.println("입력한 점수는 "+score+"입니다.");
 		
-		if(score >= 90 && score <= 100) {
-			grade = 'A';
-			
-		}else if(score >= 80 && score < 90) {
-			grade = 'B';
-			
-		}else if(score >= 70 && score < 80) {
-			grade = 'C';
-			
-		}else if(score >= 60 && score < 70) {
-			grade = 'D';
-			
-		}else {
-			grade = 'F';
+		switch (score / 10) {
+		case 10:
+		case 9:
+			System.out.println("A 입니다.");
+			break;
+		case 8:
+			System.out.println("B 입니다.");
+			break;
+		case 7:
+			System.out.println("C 입니다.");
+			break;
+		case 6:
+			System.out.println("D 입니다.");
+			break;		
+		default:
+			System.out.println("F 입니다.");
+			break;
 		}
 		
-		System.out.printf("등급은 %c입니다.", grade);
+		sc.close();
 
 	}
 }
